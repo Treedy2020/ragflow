@@ -41,7 +41,7 @@ elif DOC_ENGINE == 'opensearch':
 elif DOC_ENGINE == 'infinity':
     INFINITY = get_base_config("infinity", {"uri": "infinity:23817"})
 
-if STORAGE_IMPL_TYPE in ['AZURE_SPN', 'AZURE_SAS']:
+if STORAGE_IMPL_TYPE in ['AZURE_SPN', 'AZURE_SAS', 'AZURE_CONNECTION_STRING']:
     AZURE = get_base_config("azure", {})
 elif STORAGE_IMPL_TYPE == 'AWS_S3':
     S3 = get_base_config("s3", {})

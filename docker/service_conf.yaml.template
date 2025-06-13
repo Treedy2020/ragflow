@@ -64,6 +64,10 @@ redis:
 #   secret: 'secret'
 #   tenant_id: 'tenant_id'
 #   container_name: 'container_name'
+# azure:
+#   auth_type: 'connection_string'
+#   container_name: 'container_name'
+#   connection_string: 'azure_storage_connection_string'
 # user_default_llm:
 #   factory: 'Tongyi-Qianwen'
 #   api_key: 'sk-xxxxxxxxxxxxx'
